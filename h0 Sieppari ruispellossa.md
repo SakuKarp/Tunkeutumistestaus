@@ -12,6 +12,8 @@ Status: HTTP-vastauskoodi
 
 Type: Resurssin tyyppi
 
+Koko: tiedoston koko
+
 Initiator: Mikä aiheutti resurssin pyynnön
 
 Time: Kuinka kauan pyyntö kesti

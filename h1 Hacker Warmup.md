@@ -72,6 +72,28 @@ Tämän jälkeen rekisteröin ja kirjauduin WebvGoattiin http://localhost:8080/W
 
 
 c) Ratkaise WebGoatista tehtävät "HTTP Basics" ja "Developer tools". Katso vinkit alta.
+Aloitin lisäämällä nimen
+
+
+# http basics tehtävät:
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/40e054b8-3ab5-4933-b78b-75a77d0db832)
+
+
+
+Alotin avaamalla F12 dev toolin kirjoitin "GET ja POST" etsin attacking ja avasin sen Requestit
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/4e2c6ec3-64ec-441b-bf73-1b440958ed98)
+
+Löysin sieltä vastaukset: 
+
+magic_num "83"
+Answer: "post"
+magic_answer "get"
+
+# Developer tools tehtävät:
+
+
 
 d) Ratkaise ja selitä PortSwigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data. (Edellyttää ilmaista rekisteröitymistä. 
 Tehtävän voi ratkaista pelkästään selaimen osoitekenttää muokkaamalla.) Selitä, mitä tekniikoita kokeilit, ja mitä hyökkäyksesi eri osat tekevät.
@@ -89,10 +111,6 @@ Purin tiedoston ja lisäsin VirtualBoxiin. Pääsin kirjautumaan sisään
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/899ef2d2-7bab-42b8-806a-1b9f8cdaf609)
 
 
-
-
-
-
 f) Porttiskannaa 1000 tavallisinta tcp-porttia omasta koneestasi (localhost). Analysoi tulokset.
 
 g) Porttiskannaa kaikki koneesi (localhost) tcp-portit. Analysoi tulokset. (Edellisissä kohdissa mainittuja analyyseja ei tarvitse toistaa, voit vain viitata niihin ja keskittyä eroihin).
@@ -105,6 +123,8 @@ j) Kokeile ja esittele jokin avointen lähteiden tiedusteluun sopiva weppisivu t
 Hyviä esimerkkejä löytyy Bazzel: IntelTechniques: Tools ja Bellingcat: Resources, voit myös käyttää muuta itse valitsemaasi työkalua. Työkalua pitää siis myös kokeilla, pelkkä nimen mainitseminen ei riitä. Pidä esimerkit harmittomina, älä julkaise kenenkään henkilökohtaisia salaisuuksia raportissasi.
 
 #references
+
+https://www.kali.org/get-kali/#kali-virtual-machines
 https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/
 https://overthewire.org/wargames/bandit/bandit0.html
 https://learning.oreilly.com/videos/the-art-of/9780135767849/9780135767849-SPTT_04_00/

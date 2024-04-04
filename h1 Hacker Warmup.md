@@ -154,11 +154,23 @@ Purin tiedoston ja lisäsin VirtualBoxiin. Pääsin kirjautumaan sisään
 
 # i) Asenna demoni tai pari (esim Apache ja SSH). Vertaile, miten localhost:n laajan porttiskannauksen tulos eroaa.
 
-# j) Kokeile ja esittele jokin avointen lähteiden tiedusteluun sopiva weppisivu tai työkalu. 
-Hyviä esimerkkejä löytyy Bazzel: IntelTechniques: Tools ja Bellingcat: Resources, voit myös käyttää muuta itse valitsemaasi työkalua. Työkalua pitää siis myös kokeilla, pelkkä nimen mainitseminen ei riitä. Pidä esimerkit harmittomina, älä julkaise kenenkään henkilökohtaisia salaisuuksia raportissasi.
+# j) Kokeile ja esittele jokin avointen lähteiden tiedusteluun sopiva weppisivu tai työkalu.
+
+
+Tutkin netistä erilaisia tiedusteluun sopivia websivuja ja löysin https://checkusernames.com/
+
+Siellä voi etsiä Käyttäjänimellä millä alustoilla on samalla nimellä käyttäjiä.
+
+Käytin haku nimeksi test123 jotta se ei keneenkään kohdistu. Kuvassa näkyy haku.
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/d2e09a96-325f-44d8-899f-b934caeccc2f)
+
+
+
 
 #references
 
+https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data
 https://www.kali.org/get-kali/#kali-virtual-machines
 https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/
 https://overthewire.org/wargames/bandit/bandit0.html

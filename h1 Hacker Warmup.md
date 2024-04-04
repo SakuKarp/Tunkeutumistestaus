@@ -18,9 +18,58 @@ x) Lue/katso ja tiivistä ranskalaisilla viivoilla. (Video & teksti linkattu lä
 
 
 
-a) Ratkaise Over The Wire: Bandit kolme ensimmäistä tasoa (0-2).
+a) Ratkaise Over The Wire: Bandit kolme ensimmäistä tasoa (0-2). 
+
+tehtävät:
+https://overthewire.org/wargames/bandit/bandit0.html
+
+Level 0-2
+
+Otin ssh yhteyden 
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/957403f6-3867-4479-a4a0-9858770bf0e6)
+
+Tämän jälkeen käytin komentoja
+
+    ls
+    cat readme
+
+Löysin tiedoston ja katsoin mitä se pitää sisällään
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/c128b628-807b-4f8e-be63-f94fee7977ff)
+
+Tämän jälkeen otin ssh yhteyden bandit1 käyttämällä salasanaa jonka löysin readme filestä
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/3889dbc1-1136-48aa-8de6-674badbab241)
+
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/02cd52e6-0bf4-4383-a30b-382e47ade962)
+
+Tein saman kirjautumalla bandit2 käyttämällä salasanaa jonka löysin - kansiosta.
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/e3a51628-d4f2-45a1-b9cd-1b35c42dd819)
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/4a3fa42a-b94d-464d-ac75-494060068fb1)
+
+
+
+
 
 b) Asenna WebGoat ja kokeile, että pääset kirjautumaan sisään.
+
+Alotin asentamalla javaa käyttäen Teron ohjeita Install Webgoat 8 - Learn Web Pentesting.
+
+    sudo apt-get update
+    sudo apt-get -y install openjdk-17-jre ufw wget bash-completion
+    wget https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/webgoat-server-8.0.0.M26.jar
+    java -jar webgoat-server-8.0.0.M26.jar
+
+Tämän jälkeen rekisteröin ja kirjauduin WebvGoattiin http://localhost:8080/WebGoat/
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/8fb2c90d-5c6e-4f1e-aaf4-9302553d5db6)
+
 
 c) Ratkaise WebGoatista tehtävät "HTTP Basics" ja "Developer tools". Katso vinkit alta.
 
@@ -35,8 +84,9 @@ Asennus oli yksinkertainen ladattiin tiedosto:
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/8ff6099c-253c-4952-a9b1-b2e67d46fa7b)
 
-Purin tiedoston
+Purin tiedoston ja lisäsin VirtualBoxiin. Pääsin kirjautumaan sisään 
 
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/899ef2d2-7bab-42b8-806a-1b9f8cdaf609)
 
 
 
@@ -55,6 +105,7 @@ j) Kokeile ja esittele jokin avointen lähteiden tiedusteluun sopiva weppisivu t
 Hyviä esimerkkejä löytyy Bazzel: IntelTechniques: Tools ja Bellingcat: Resources, voit myös käyttää muuta itse valitsemaasi työkalua. Työkalua pitää siis myös kokeilla, pelkkä nimen mainitseminen ei riitä. Pidä esimerkit harmittomina, älä julkaise kenenkään henkilökohtaisia salaisuuksia raportissasi.
 
 #references
-
+https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/
+https://overthewire.org/wargames/bandit/bandit0.html
 https://learning.oreilly.com/videos/the-art-of/9780135767849/9780135767849-SPTT_04_00/
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/

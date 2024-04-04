@@ -119,8 +119,19 @@ Molemmat osiot ovat tehty
 
 
 
-# d) Ratkaise ja selitä PortSwigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data. (Edellyttää ilmaista rekisteröitymistä. 
-Tehtävän voi ratkaista pelkästään selaimen osoitekenttää muokkaamalla.) Selitä, mitä tekniikoita kokeilit, ja mitä hyökkäyksesi eri osat tekevät.
+# d) Ratkaise ja selitä PortSwigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data. (Edellyttää ilmaista rekisteröitymistä. Tehtävän voi ratkaista pelkästään selaimen osoitekenttää muokkaamalla.) Selitä, mitä tekniikoita kokeilit, ja mitä hyökkäyksesi eri osat tekevät.
+
+Aloitin kirjautumalla sisään Labiin ja aloitin tutkimaan miten tämän tehtävän voisi suorittaa. Katsoin community videot miten tämän tehävän voi ratkaistaan. 
+
+Käytin videota https://www.youtube.com/watch?v=alTceRdSxS0 tehtävän tekemiseen joka oli Community osiossa "Intigriti" henkilön tekijältä.
+
+Url loppu osaan categoria osiossa lisäsin +or+1=1-- ja tämä antoi kaikki tuotteet näkyville
+
+En hirveesti itse saanut tästä tehtävästä selvää miten ja miksi nämä toimivat näin.
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/9079b327-13b0-4049-b62c-1bd4267588fd)
+
+
 
 # e) Asenna Linux virtuaalikoneeseen. Suosittelen joko Kali (viimeisin versio) tai Debian 12-Bookworm.
 

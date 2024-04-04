@@ -29,6 +29,20 @@ Tehtävän voi ratkaista pelkästään selaimen osoitekenttää muokkaamalla.) S
 
 e) Asenna Linux virtuaalikoneeseen. Suosittelen joko Kali (viimeisin versio) tai Debian 12-Bookworm.
 
+Asensin koneelleni Kalin sivustolta https://www.kali.org/get-kali/#kali-virtual-machines VirtualBoxille.
+
+Asennus oli yksinkertainen ladattiin tiedosto:
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/8ff6099c-253c-4952-a9b1-b2e67d46fa7b)
+
+Purin tiedoston
+
+
+
+
+
+
+
 f) Porttiskannaa 1000 tavallisinta tcp-porttia omasta koneestasi (localhost). Analysoi tulokset.
 
 g) Porttiskannaa kaikki koneesi (localhost) tcp-portit. Analysoi tulokset. (Edellisissä kohdissa mainittuja analyyseja ei tarvitse toistaa, voit vain viitata niihin ja keskittyä eroihin).

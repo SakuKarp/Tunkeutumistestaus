@@ -1,6 +1,6 @@
 # h1 Hacker Warmup
 
-x) Lue/katso ja tiivistä ranskalaisilla viivoilla. (Video & teksti linkattu lähteisiin)
+# x) Lue/katso ja tiivistä ranskalaisilla viivoilla. (Video & teksti linkattu lähteisiin)
 
 - Port scanning : Järjestelmän tai verkon skannaaminen, avoimien porttien löyträminen ja eri hyökkäysreittien löytäminen.
 - Service enumeration : kun portit on tunnistettu, niistä voi kerätä tietoa eri palveluista esim. vesriotiedostoista ja konfiguraatioista.
@@ -18,7 +18,7 @@ x) Lue/katso ja tiivistä ranskalaisilla viivoilla. (Video & teksti linkattu lä
 
 
 
-a) Ratkaise Over The Wire: Bandit kolme ensimmäistä tasoa (0-2). 
+# a) Ratkaise Over The Wire: Bandit kolme ensimmäistä tasoa (0-2). 
 
 tehtävät:
 https://overthewire.org/wargames/bandit/bandit0.html
@@ -57,7 +57,7 @@ Tein saman kirjautumalla bandit2 käyttämällä salasanaa jonka löysin - kansi
 
 
 
-b) Asenna WebGoat ja kokeile, että pääset kirjautumaan sisään.
+# b) Asenna WebGoat ja kokeile, että pääset kirjautumaan sisään.
 
 Alotin asentamalla javaa käyttäen Teron ohjeita Install Webgoat 8 - Learn Web Pentesting.
 
@@ -71,11 +71,11 @@ Tämän jälkeen rekisteröin ja kirjauduin WebvGoattiin http://localhost:8080/W
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/8fb2c90d-5c6e-4f1e-aaf4-9302553d5db6)
 
 
-c) Ratkaise WebGoatista tehtävät "HTTP Basics" ja "Developer tools". Katso vinkit alta.
+# c) Ratkaise WebGoatista tehtävät "HTTP Basics" ja "Developer tools". Katso vinkit alta.
 Aloitin lisäämällä nimen
 
 
-# http basics tehtävät:
+http basics tehtävät:
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/40e054b8-3ab5-4933-b78b-75a77d0db832)
 
@@ -91,14 +91,29 @@ magic_num "83"
 Answer: "post"
 magic_answer "get"
 
-# Developer tools tehtävät:
+Developer tools tehtävät:
+
+Aloitin tekemään DDeveloper Tools tehtävää ja alussa luin ohjeita ja tein mitä sivulla käskettiin. 
+
+Testataan consolia
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/f025e347-6d7d-4f4e-ae2f-4b6b3cf2d7cb)
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/ee3bb83b-0caa-4e95-977f-57e9cdd3c138)
+
+kutsuttiin numero käyttämällä webgoat.customjs.phoneHome()
+
+Saatiin numero ja tehtävä läpi
 
 
 
-d) Ratkaise ja selitä PortSwigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data. (Edellyttää ilmaista rekisteröitymistä. 
+
+
+
+# d) Ratkaise ja selitä PortSwigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data. (Edellyttää ilmaista rekisteröitymistä. 
 Tehtävän voi ratkaista pelkästään selaimen osoitekenttää muokkaamalla.) Selitä, mitä tekniikoita kokeilit, ja mitä hyökkäyksesi eri osat tekevät.
 
-e) Asenna Linux virtuaalikoneeseen. Suosittelen joko Kali (viimeisin versio) tai Debian 12-Bookworm.
+# e) Asenna Linux virtuaalikoneeseen. Suosittelen joko Kali (viimeisin versio) tai Debian 12-Bookworm.
 
 Asensin koneelleni Kalin sivustolta https://www.kali.org/get-kali/#kali-virtual-machines VirtualBoxille.
 
@@ -111,15 +126,15 @@ Purin tiedoston ja lisäsin VirtualBoxiin. Pääsin kirjautumaan sisään
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/899ef2d2-7bab-42b8-806a-1b9f8cdaf609)
 
 
-f) Porttiskannaa 1000 tavallisinta tcp-porttia omasta koneestasi (localhost). Analysoi tulokset.
+# f) Porttiskannaa 1000 tavallisinta tcp-porttia omasta koneestasi (localhost). Analysoi tulokset.
 
-g) Porttiskannaa kaikki koneesi (localhost) tcp-portit. Analysoi tulokset. (Edellisissä kohdissa mainittuja analyyseja ei tarvitse toistaa, voit vain viitata niihin ja keskittyä eroihin).
+# g) Porttiskannaa kaikki koneesi (localhost) tcp-portit. Analysoi tulokset. (Edellisissä kohdissa mainittuja analyyseja ei tarvitse toistaa, voit vain viitata niihin ja keskittyä eroihin).
 
-h) Tee laaja porttiskanaus (nmap -A) omalle koneellesi (localhost), kaikki portit. Selitä, mitä -A tekee. Analysoi tulokset. (Edellisissä kohdissa mainittuja analyyseja ei tarvitse toistaa, voit vain viitata niihin ja keskittyä eroihin.).
+# h) Tee laaja porttiskanaus (nmap -A) omalle koneellesi (localhost), kaikki portit. Selitä, mitä -A tekee. Analysoi tulokset. (Edellisissä kohdissa mainittuja analyyseja ei tarvitse toistaa, voit vain viitata niihin ja keskittyä eroihin.).
 
-i) Asenna demoni tai pari (esim Apache ja SSH). Vertaile, miten localhost:n laajan porttiskannauksen tulos eroaa.
+# i) Asenna demoni tai pari (esim Apache ja SSH). Vertaile, miten localhost:n laajan porttiskannauksen tulos eroaa.
 
-j) Kokeile ja esittele jokin avointen lähteiden tiedusteluun sopiva weppisivu tai työkalu. 
+# j) Kokeile ja esittele jokin avointen lähteiden tiedusteluun sopiva weppisivu tai työkalu. 
 Hyviä esimerkkejä löytyy Bazzel: IntelTechniques: Tools ja Bellingcat: Resources, voit myös käyttää muuta itse valitsemaasi työkalua. Työkalua pitää siis myös kokeilla, pelkkä nimen mainitseminen ei riitä. Pidä esimerkit harmittomina, älä julkaise kenenkään henkilökohtaisia salaisuuksia raportissasi.
 
 #references

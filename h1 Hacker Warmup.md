@@ -110,11 +110,12 @@ Saatiin numero ja tehtävä läpi
 
 Aloitin painamalla "Go" näppäintä joka lähetti pyynnön. Filen type oli network avasin sen ja request osiossa näkyi vastaus netWorkNum "98.86567958895161".
 
-Molemmat osiot ovat tehty
-
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/b5f0e7ac-f4ff-4188-8828-2ce65e0c3ad3)
 
+Molemmat osiot ovat tehty
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/7bdb6cb4-8f79-41bc-8ca7-b29637af8dab)
 
 
 

@@ -171,9 +171,15 @@ Käytin haku nimeksi test123 jotta se ei keneenkään kohdistu. Kuvassa näkyy h
 #references
 
 https://checkusernames.com/
+
 https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data
+
 https://www.kali.org/get-kali/#kali-virtual-machines
+
 https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/
+
 https://overthewire.org/wargames/bandit/bandit0.html
+
 https://learning.oreilly.com/videos/the-art-of/9780135767849/9780135767849-SPTT_04_00/
+
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/

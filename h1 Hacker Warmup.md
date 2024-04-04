@@ -193,6 +193,15 @@ porttiskannasin käyttämällä ja erot mitä näin oli "fingerprint" sekä "net
 
 # i) Asenna demoni tai pari (esim Apache ja SSH). Vertaile, miten localhost:n laajan porttiskannauksen tulos eroaa.
 
+asensin apachen ja ssh käyttämällä jonka jälkeen tein porttiskannauksen Nmap -A localhost mutta mitään erikoista ei siihen tullut? en tiedä syytä.
+
+    sudo apt install openssh-server
+    sudo apt install apache2
+
+kuva vielä skannauksesta:
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/d9059d90-10f7-41bb-ba2c-ee9895c604ea)
+
 
 
 

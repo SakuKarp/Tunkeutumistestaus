@@ -148,11 +148,48 @@ Purin tiedoston ja lisäsin VirtualBoxiin. Pääsin kirjautumaan sisään
 
 # f) Porttiskannaa 1000 tavallisinta tcp-porttia omasta koneestasi (localhost). Analysoi tulokset.
 
+porttiskannasin käyttämällä
+
+    nmap -p -1000 localhost komentoa
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/85e064d2-87be-4fa2-bf0c-8c8a68a9b816)
+                                                           
+Scannaus kertoo
+
+Start ajan
+Reportin localhostista
+Host on päällä
+Muut osoitteet mitä ei skannattu
+kaikki 1000 porttia ovat ignore tilassa
+Ei näytä 1000 suljettua porttia
+
 # g) Porttiskannaa kaikki koneesi (localhost) tcp-portit. Analysoi tulokset. (Edellisissä kohdissa mainittuja analyyseja ei tarvitse toistaa, voit vain viitata niihin ja keskittyä eroihin).
+
+porttiskannasin käyttämällä eikä siinä näkynyt eroja
+
+    nmap -p- localhost
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/c2bc7797-2dd1-4bb5-a8ef-cfb8eaae5ba9)
+
+
 
 # h) Tee laaja porttiskanaus (nmap -A) omalle koneellesi (localhost), kaikki portit. Selitä, mitä -A tekee. Analysoi tulokset. (Edellisissä kohdissa mainittuja analyyseja ei tarvitse toistaa, voit vain viitata niihin ja keskittyä eroihin.).
 
+
+porttiskannasin käyttämällä ja erot mitä näin oli "fingerprint" sekä "network distance". -A lisää käyttöjärjestelmän tunnistamisen, version ja reitityksen seurannan.
+
+    nmap -A localhost
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/ef4904d1-3b5f-4576-a3f0-bd73fc4f2550)
+
+
+
+
+
 # i) Asenna demoni tai pari (esim Apache ja SSH). Vertaile, miten localhost:n laajan porttiskannauksen tulos eroaa.
+
+
+
 
 # j) Kokeile ja esittele jokin avointen lähteiden tiedusteluun sopiva weppisivu tai työkalu.
 

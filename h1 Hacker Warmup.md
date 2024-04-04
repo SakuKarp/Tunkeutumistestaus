@@ -154,13 +154,18 @@ porttiskannasin käyttämällä
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/85e064d2-87be-4fa2-bf0c-8c8a68a9b816)
                                                            
-Scannaus kertoo
+Scannaus kertoo:
 
 Start ajan
+
 Reportin localhostista
+
 Host on päällä
+
 Muut osoitteet mitä ei skannattu
+
 kaikki 1000 porttia ovat ignore tilassa
+
 Ei näytä 1000 suljettua porttia
 
 # g) Porttiskannaa kaikki koneesi (localhost) tcp-portit. Analysoi tulokset. (Edellisissä kohdissa mainittuja analyyseja ei tarvitse toistaa, voit vain viitata niihin ja keskittyä eroihin).

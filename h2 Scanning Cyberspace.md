@@ -1,4 +1,4 @@
-x) Lue/katso ja tiivistä. 
+# x) Lue/katso ja tiivistä. 
 
 Avoimet portit: Sovellukset ovat aktiivisia vastaanottamaan yhteyksiä
 
@@ -21,7 +21,7 @@ Closed|Filtered: Nmap ei voi varmasti sanoa, onko portti suljettu/suodatettu
 
 
 
-a) Asenna Kali virtuaalikoneeseen
+# a) Asenna Kali virtuaalikoneeseen
 
 
 

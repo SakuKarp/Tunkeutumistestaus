@@ -1,14 +1,21 @@
-x) Lue/katso ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva kustakin artikkelista. Kannattaa lisätä myös jokin oma ajatus, idea, huomio tai kysymys.)
-Lyon 2009: Nmap Network Scanning: Chapter 15. Nmap Reference Guide:
-Port Scanning Basics (opettele, mitä tarkoittavat: open, closed, filtered; muuten vain silmäily)
-Port Scanning Techniques (opettele, mitä ovat: -sS -sT -sU; muuten vain silmäily)
-KKO 2003:36. Alaikäinen tuomittiin Osuuspankkikeskuksen porttiskannaamisesta, korkeimman oikeuden ratkaisu.
-Vapaavalintainen läpikävely 0xdf tai ippsec (Kannattaa valita helppo; esim "Base Points: Easy")
+x) Lue/katso ja tiivistä. 
 
+Avoimet portit: Sovellukset ovat aktiivisia vastaanottamaan yhteyksiä
+Suljetut portit: Saavutettavissa, mutta ei kuuntele sovellusta
+Suodatetut portit: Pakettisuodatus estää Nmapin paketit
+Unfiltered: Portti on saavutettavissa, mutta tilaa ei voi määrittää
+Open|Filtered: Nmap ei voi varmasti sanoa, onko portti avoin/suodatettu
+Closed|Filtered: Nmap ei voi varmasti sanoa, onko portti suljettu/suodatettu
+
+-sS: SYN-skannaus, jossa skanneri lähettää SYN-paketteja määritellyille porteille. Vastauksen perusteella se voi päätellä portin tilan.
+-sT: TCP Connect -skannaus, jossa skanneri yrittää muodostaa oikean TCP-yhteyden tarkasteltavalle portille. Jos yhteys onnistuu, portti on avoin, muuten suljettu.
+-sU: UDP-skannaus, jossa skanneri lähettää UDP-paketteja määritellyille porteille. UDP-portit eivät välttämättä vastaa, joten tämä skannaus voi olla hidas ja epäluotettava.
 
 
 
 a) Asenna Kali virtuaalikoneeseen
+
+
 
 b) Asenna Metasploitable 2 virtuaalikoneeseen
 

@@ -31,7 +31,7 @@ Asennus oli yksinkertainen ladattiin tiedosto, purin tiedoston ja lisäsin Virtu
 
 # b) Asenna Metasploitable 2 virtuaalikoneeseen
 
-Aloitin etsimällä ohjeita ja löysisin kyseisen ohjeen: https://www.geeksforgeeks.org/how-to-install-metasploitable-2-in-virtualbox/
+Aloitin etsimällä ohjeita ja löysin kyseisen ohjeen: https://www.geeksforgeeks.org/how-to-install-metasploitable-2-in-virtualbox/
 
 Aloitin lataamalla tiedoston https://docs.rapid7.com/metasploit/metasploitable-2/ sivulta jonka jälkeen purkasin tiedoston.
 

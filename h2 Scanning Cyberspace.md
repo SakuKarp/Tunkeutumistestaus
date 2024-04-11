@@ -108,6 +108,10 @@ Jatkoin tässä msf consolissa ja käytin komentoa:
 
 
 
+ANALYSOI TÄHÄN WIRESHARKISTA
+
+
+
 # f) Tallenna portiskannauksen tulos tiedostoon käyttäen nmap:n omaa tallennusta (nmap -oA foo).
 
 
@@ -126,6 +130,13 @@ Tallensin sen Script työkalulla
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/60f77633-85ef-4a42-bec4-608eb4eed1c7)
 
+Jonka jälkeen katsoin että se avautuu 
+
+    micro log001.txt
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/b0fd506c-bd15-4f52-b323-74ff80343a60)
+
 
 
 # h) Etsi kaikki maininnat jostain osoitteesta, palvelusta tai vastaavasta kaikista tallennetuista tuloksista ja lokeista (grep -ir tero).
@@ -135,9 +146,13 @@ Tallensin sen Script työkalulla
 # i) Anna esimerkit nmap ajonaikaisista toiminnosta. (man nmap: runtime interaction)
 
 
+
+
+
 ## References
 
-
+https://terokarvinen.com/2024/eettinen-hakkerointi-2024/
+https://gist.github.com/fabionoth/ba46407d9cd03144150225715697c47f
 https://www.youtube.com/watch?v=klNl67MT1Eo
 https://finlex.fi/fi/oikeus/kko/kko/2003/20030036
 https://nmap.org/book/man-port-scanning-techniques.html

@@ -51,12 +51,26 @@ msfadminilla kirjautuminen:
 
 
 
-# c) Tee koneille virtuaaliverkko, jossa Kalin ja Metasploitablen välillä on host-only network, niin että porttiskannatessa ym. koneet on eristetty intenetistä, mutta ne saavat yhteyden toisiinsa 
-Osoita eri komennoilla, että Internet-yhteys katkeaa: 'ping 1.1.1.1', 'ping www.google.com', 'curl www.google.com'
-Vapaaehtoisena lisänä: Kali saa yhteyden Internettiin, mutta sen voi laittaa pois päältä.
+# c) Tee koneille virtuaaliverkko, jossa Kalin ja Metasploitablen välillä on host-only network, niin että porttiskannatessa ym. koneet on eristetty intenetistä, mutta ne saavat yhteyden toisiinsa  Osoita eri komennoilla, että Internet-yhteys katkeaa: 'ping 1.1.1.1'
 
 
+Lisäsin molemmat Host-only verkkoon ja kirjauduin koneille sisään.
 
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/66669350-58a0-4d10-b0ab-2ee6c0cc852d)
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/a004d5fa-2b1e-4e91-86b3-a2863f9c9341)
+
+Pingaus metalla ettei ole verkossa
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/462f8405-9457-413c-ba8d-0d0776c06ee6)
+
+ifconfig jolla katsoin inet addressin 
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/d2d552da-969a-4be4-9cf8-8cc4911201b1)
+
+kalilla ip osoitteella metaan
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/0a383eab-0fb5-436a-8aa4-bb3c5723376a)
 
 
 # d) Etsi Metasploitable porttiskannaamalla (db_nmap -sn). Tarkista selaimella, että löysit oikean IP:n - Metasploitablen weppipalvelimen etusivulla lukee Metasploitable. Katso, ettei skannauspaketteja vuoda Internetiin - kannattaa irrottaa koneet netistä skannatessa. Seuraa liikennettä snifferillä.
@@ -75,6 +89,8 @@ Vapaaehtoisena lisänä: Kali saa yhteyden Internettiin, mutta sen voi laittaa p
 
 ## References
 
+
+https://www.youtube.com/watch?v=klNl67MT1Eo
 https://finlex.fi/fi/oikeus/kko/kko/2003/20030036
 https://nmap.org/book/man-port-scanning-techniques.html
 https://nmap.org/book/man-port-scanning-basics.html

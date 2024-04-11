@@ -108,7 +108,7 @@ Jatkoin tässä msf consolissa ja käytin komentoa:
 
 
 
-ANALYSOI TÄHÄN WIRESHARKISTA
+ANALYSOIN TÄHÄN VIELÄ WIRESHARKISTA
 
 
 

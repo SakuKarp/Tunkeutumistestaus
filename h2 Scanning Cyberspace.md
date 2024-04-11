@@ -64,6 +64,11 @@ Pingaus metalla ettei ole verkossa
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/462f8405-9457-413c-ba8d-0d0776c06ee6)
 
+Pingaus kalilla ettei ole verkossa
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/2f764184-dccb-4ce2-bf97-b3dd1fbb644a)
+
+
 ifconfig jolla katsoin inet addressin 
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/d2d552da-969a-4be4-9cf8-8cc4911201b1)
@@ -75,13 +80,56 @@ kalilla ip osoitteella metaan
 
 # d) Etsi Metasploitable porttiskannaamalla (db_nmap -sn). Tarkista selaimella, että löysit oikean IP:n - Metasploitablen weppipalvelimen etusivulla lukee Metasploitable. Katso, ettei skannauspaketteja vuoda Internetiin - kannattaa irrottaa koneet netistä skannatessa. Seuraa liikennettä snifferillä.
 
+Aloitin etsimällä ohjeet db_nmapinkäyttöön ja löysin https://gist.github.com/fabionoth/ba46407d9cd03144150225715697c47f
+
+Tämän jälkeen kun pääsin msf consoliin käytin komentoa :
+
+    db_nmap -sn 192.168.56.101
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/eebafde8-1722-4456-87fa-c45eb9365a99)
+
+wireshark:
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/8249ce89-9741-4791-8527-5ce919d16fc5)
+
+
+
+
+
+
 # e) Porttiskannaa Metasploitable huolellisesti (db_nmap -A -p0-). Analysoi tulos. Kerro myös ammatillinen mielipiteesi (uusi, vanha, tavallinen, erikoinen), jos jokin herättää ajatuksia. Seuraa liikennettä snifferillä.
+
+Jatkoin tässä msf consolissa ja käytin komentoa: 
+
+    db_nmap -A -p0- 192.168.56.101
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/dbc61d85-15ac-49c4-ac43-12768a695706)
+
+
 
 # f) Tallenna portiskannauksen tulos tiedostoon käyttäen nmap:n omaa tallennusta (nmap -oA foo).
 
+
+Tallensin tiedostot käyttäen komentoa:
+
+    nmap -oA foo
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/3600a421-20b9-4d70-aafe-a93739f0f9eb)
+
+
 # g) Tallenna shell-sessio tekstitiedostoon script-työkalulla (script -fa log001.txt)
 
+Tallensin sen Script työkalulla
+
+     script -fa log001.txt
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/60f77633-85ef-4a42-bec4-608eb4eed1c7)
+
+
+
 # h) Etsi kaikki maininnat jostain osoitteesta, palvelusta tai vastaavasta kaikista tallennetuista tuloksista ja lokeista (grep -ir tero).
+
 
 
 # i) Anna esimerkit nmap ajonaikaisista toiminnosta. (man nmap: runtime interaction)

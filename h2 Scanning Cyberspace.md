@@ -1,23 +1,23 @@
 # x) Lue/katso ja tiivistä. 
 
-Avoimet portit: Sovellukset ovat aktiivisia vastaanottamaan yhteyksiä
+- Avoimet portit: Sovellukset ovat aktiivisia vastaanottamaan yhteyksiä
 
-Suljetut portit: Saavutettavissa, mutta ei kuuntele sovellusta
+- Suljetut portit: Saavutettavissa, mutta ei kuuntele sovellusta
 
-Suodatetut portit: Pakettisuodatus estää Nmapin paketit
+- Suodatetut portit: Pakettisuodatus estää Nmapin paketit
 
-Unfiltered: Portti on saavutettavissa, mutta tilaa ei voi määrittää
+- Unfiltered: Portti on saavutettavissa, mutta tilaa ei voi määrittää
 
-Open|Filtered: Nmap ei voi varmasti sanoa, onko portti avoin/suodatettu
+- Open|Filtered: Nmap ei voi varmasti sanoa, onko portti avoin/suodatettu
 
-Closed|Filtered: Nmap ei voi varmasti sanoa, onko portti suljettu/suodatettu
+- Closed|Filtered: Nmap ei voi varmasti sanoa, onko portti suljettu/suodatettu
 
 
--sS: SYN-skannaus, jossa skanneri lähettää SYN-paketteja määritellyille porteille. Vastauksen perusteella se voi päätellä portin tilan.
+- -sS: SYN-skannaus, jossa skanneri lähettää SYN-paketteja määritellyille porteille. Vastauksen perusteella se voi päätellä portin tilan.
 
--sT: TCP Connect -skannaus, jossa skanneri yrittää muodostaa oikean TCP-yhteyden tarkasteltavalle portille. Jos yhteys onnistuu, portti on avoin, muuten suljettu.
+- -sT: TCP Connect -skannaus, jossa skanneri yrittää muodostaa oikean TCP-yhteyden tarkasteltavalle portille. Jos yhteys onnistuu, portti on avoin, muuten suljettu.
 
--sU: UDP-skannaus, jossa skanneri lähettää UDP-paketteja määritellyille porteille. UDP-portit eivät välttämättä vastaa, joten tämä skannaus voi olla hidas ja epäluotettava.
+- -sU: UDP-skannaus, jossa skanneri lähettää UDP-paketteja määritellyille porteille. UDP-portit eivät välttämättä vastaa, joten tämä skannaus voi olla hidas ja epäluotettava.
 
 
 

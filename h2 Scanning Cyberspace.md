@@ -19,6 +19,10 @@
 
 - -sU: UDP-skannaus, jossa skanneri lähettää UDP-paketteja määritellyille porteille. UDP-portit eivät välttämättä vastaa, joten tämä skannaus voi olla hidas ja epäluotettava.
 
+Alaikäinen tuomittiin Osuuspankkikeskuksen porttiskannaamisesta:
+
+Syytteessä kerrottiin, että henkilö oli yrittänyt tunkeutua suojattuun tietojärjestelmään, mutta yritys ei onnistunut, koska mahdollisuutta ei ollut. Todisteiden perusteella henkilöllä oli kuitenkin ohjelmisto ja historia vastaavista toimista, ja yhteys tuli hänen koneeltaan. Tuomioistuin katsoi, että henkilö yritti murtautua järjestelmään ja oli todennäköisesti tehnyt sen, joten häntä syytettiin ja tuomittiin tietomurron yrityksestä. Tästä tapauksesta näkee sen että, alalla kannattaa olla erittäin varovainen omista tekosista.
+
 
 
 # a) Asenna Kali virtuaalikoneeseen

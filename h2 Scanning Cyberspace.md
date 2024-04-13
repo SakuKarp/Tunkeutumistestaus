@@ -106,13 +106,24 @@ wireshark:
 
 Jatkoin tässä msf consolissa ja käytin komentoa: 
 
-    db_nmap -A -p0- 192.168.56.101
+db_nmap -A -p0- komento suorittaa aggressiivisen skannauksen kaikista porteista ja tallentaa tulokset Metasploit-tietokantaan.
+- A agressiivinen skannaus
+- -p0- skannattavat portit tässä tapauksessa kaikki
+
+      db_nmap -A -p0- 192.168.56.101
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/dbc61d85-15ac-49c4-ac43-12768a695706)
 
 
+Skannauksesta löytyi 133656 pakettia
 
-ANALYSOIN TÄHÄN VIELÄ WIRESHARKISTA
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/de7d38f1-41fe-46dd-ae70-5e7f6af79e3c)
+
+Tukiskelin mitä kaikki nämä värit tarkoittavat ja löysin asetuksista:
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/6f9f7bd8-e0be-4ad1-a744-70382bbf45e8)
+
 
 
 

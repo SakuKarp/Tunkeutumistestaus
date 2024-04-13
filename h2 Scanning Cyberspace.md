@@ -188,9 +188,15 @@ Tulosta toimintaohjeet käytön aikana
 ## References
 
 https://service.shure.com/Service/s/article/How-to-analyze-Wireshark-data?language=en_US
+
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/
+
 https://gist.github.com/fabionoth/ba46407d9cd03144150225715697c47f
+
 https://www.youtube.com/watch?v=klNl67MT1Eo
+
 https://finlex.fi/fi/oikeus/kko/kko/2003/20030036
+
 https://nmap.org/book/man-port-scanning-techniques.html
+
 https://nmap.org/book/man-port-scanning-basics.html

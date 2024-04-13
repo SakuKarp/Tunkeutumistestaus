@@ -120,7 +120,7 @@ Skannauksesta löytyi 133656 pakettia
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/de7d38f1-41fe-46dd-ae70-5e7f6af79e3c)
 
-Tukiskelin mitä kaikki nämä värit tarkoittavat ja löysin asetuksista:
+Tutkiskelin mitä kaikki nämä värit tarkoittavat ja löysin asetuksista:
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/6f9f7bd8-e0be-4ad1-a744-70382bbf45e8)
 

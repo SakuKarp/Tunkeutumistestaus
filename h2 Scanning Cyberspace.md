@@ -141,6 +141,17 @@ Jonka jälkeen katsoin että se avautuu
 
 # h) Etsi kaikki maininnat jostain osoitteesta, palvelusta tai vastaavasta kaikista tallennetuista tuloksista ja lokeista (grep -ir tero).
 
+Greppasin wiresharkin komennolla
+
+    grep -ir Wireshark
+
+Kuvassa näkyy mitä kaikkea wiresharkilla on tehty.
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/1fd2e878-4f33-42e3-96ae-08f01cb174d1)
+
+
+
+
 
 
 # i) Anna esimerkit nmap ajonaikaisista toiminnosta. (man nmap: runtime interaction)

@@ -145,9 +145,19 @@ Jonka jälkeen katsoin että se avautuu
 
 # i) Anna esimerkit nmap ajonaikaisista toiminnosta. (man nmap: runtime interaction)
 
+Käytin tähän tehtävään https://nmap.org/book/man-runtime-interaction.html jossa kerrotaan hyvin mitä voi tehdä ajon aikana.
 
+v / V
+Lisää tai vähentää yksityiskohtaisuuden tasoa
 
+d / D
+Lisää tai vähentää vianjäljitystasoa
 
+p / P
+Kytkee päälle tai pois paketin jäljityksen
+
+?
+Tulosta toimintaohjeet käytön aikana
 
 ## References
 

@@ -1,4 +1,6 @@
-x) Lue/katso ja tiivistä.
+# x) Lue/katso ja tiivistä.
+
+
 Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf:
 
 - Fuff: työkalu jolla haetaan piilotettuja hakemistoja ja muita verkon resursseihin liittyviä haavoittuvuus tarkastuksia/testejä.

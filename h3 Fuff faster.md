@@ -27,6 +27,34 @@ Karvinen 2023: Crack File Password With John
 
 
 ## a) Asenna Hashcat ja testaa sen toiminta murtamalla esimerkkisalasana.
+
+Alotin katsomalla Teron ohjeita https://terokarvinen.com/2022/cracking-passwords-with-hashcat/ ja seurasin niitä.
+
+Aloitin päivittämällä ja asentamalla hashcattia
+
+
+    sudo apt-get update # Päivittää paikalliset paketit
+    sudo apt-get -y install hashid hashcat wget # asentaa paketit
+    mkdir hashed # Luo hakemiston
+    cd hashed # siirtyy hakemistoon
+    wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz # lataa tiedoston Gitistä 
+    tar xf rockyou.txt.tar.gz # Purkaa tiedoston
+    rm rockyou.txt.tar.gz # poistaa tiedoston
+    head rockyou.txt # Tulostaa rivit tiedostosta 
+    wc -l rockyou.txt # rivien lukumäärä
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/5d832ee9-69d1-4849-ae38-7af1143853a7)
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/8cbe9eb1-ec38-4724-bed8-e64f7c69545c)
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/422e0893-8b5a-4d15-b706-2133cfed5314)
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/6e215806-6f1b-47b9-8621-fc58c9466267)
+
+
+
+
+
   
 ## b) Salainen, mutta ei multa. Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf
 

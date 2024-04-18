@@ -114,7 +114,9 @@ käytin Seclists by Daniel Miessler ja katsoin että se löytyy koneeltani.
 
 Netistä pois ja jatkuu:
 
-    ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 154
+    ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ # näyttää kaikki
+    
+    ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 154 # poistaa 154 kokoiset paketit
 
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/d105d0fc-9b10-4785-ab69-bd72c9e2810a)
@@ -128,6 +130,8 @@ fuzzauksessa tuli .git ja wp-admin esiin testasin ne URL ja löytyi:
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/3c03c223-423e-4909-975e-16fa0156baa8)
 
 ## c) Asenna John the Ripper ja testaa sen toiminta murtamalla jonkin esimerkkitiedoston salasana.
+
+
   
 ## d) Fuffme. Asenna Ffufme harjoitusmaali paikallisesti omalle koneellesi. Ratkaise tehtävät (kaikki paitsi ei "Content Discovery - Pipes")
 Basic Content Discovery

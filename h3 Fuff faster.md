@@ -176,20 +176,9 @@ Did you know that Jumbo John can handle many other file formats, too [1]?
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/9f49741e-25ab-417a-996c-d8956696cc10)
 
 
-
-
-
-
-
   
 ## d) Fuffme. Asenna Ffufme harjoitusmaali paikallisesti omalle koneellesi. Ratkaise tehtävät (kaikki paitsi ei "Content Discovery - Pipes")
-Basic Content Discovery
-Content Discovery With Recursion
-Content Discovery With File Extensions
-No 404 Status
-Param Mining
-Rate Limited
-Subdomains - Virtual Host Enumeration
+
 
 
 ## e) Tee msfvenom-työkalulla haittaohjelma, joka soittaa kotiin (reverse shell). Ota yhteys vastaan metasploitin multi/handler -työkalulla.

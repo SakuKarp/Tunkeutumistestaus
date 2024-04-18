@@ -180,6 +180,55 @@ Did you know that Jumbo John can handle many other file formats, too [1]?
 ## d) Fuffme. Asenna Ffufme harjoitusmaali paikallisesti omalle koneellesi. Ratkaise tehtävät (kaikki paitsi ei "Content Discovery - Pipes")
 
 
+ 
+
+- Aloitin tekemään content discovery – basic
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/07238012-6985-42c7-bde1-50bafcf8e4db)
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/2ff5c3f4-7a88-477a-9baa-7b8b31869c0c)
+
+ 
+Löysin 2 poikkeavaa tiedostoa class ja development.log
+
+- Content Discovery With Recursion
+  
+ ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/cc4dbdde-3e89-41b0-a9f2-9f9d15697ee5)
+
+
+Tästä osioista löysyin 3 eri poikkeavaa tiedostoa admin, admin/users ja /admin/users/96
+
+- Content Discovery With File Extensions
+ 
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/83ac3f84-8891-4151-a00e-9b2354d4bea3)
+
+Tästä osiosta löytyi users.log
+
+- No 404 Status
+ 
+
+tässä osiossa löytyi secret
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/9ed46106-dcd1-445a-9bff-0ef5abbfce38)
+
+
+- Param Mining
+ 
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/4134ec48-8993-46f8-a00a-0471d7401f6a)
+
+tässä osiossa löytyi debug
+
+
+- Rate Limited
+
+Tässä osiossa testasin molemmat mutta timeout oli liian pitkä ja tässä olisi kestänyt ikuisuus joten siirryin seuraavaan osioon.
+
+- Subdomains - Virtual Host Enumeration
+
+tässä osiossa hain kaikki ensin ja sitten filtteröin kaikki 1495 pois ja sain 
+ 
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/04b2b1ff-515d-4a04-950d-efb4c08e07f9)
+
+
+
 
 ## e) Tee msfvenom-työkalulla haittaohjelma, joka soittaa kotiin (reverse shell). Ota yhteys vastaan metasploitin multi/handler -työkalulla.
 Haittaohjelma ei saa olla automaattisesti leviävä. Msfvenom tekee tunnilla opetelluilla asetuksilla ohjelman, joka avaa reverse shellin, kun sen ajaa, mutta joka ei leviä eikä tee muutenkaan mitään itsestään.

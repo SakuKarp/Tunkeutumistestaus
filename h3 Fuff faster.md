@@ -131,6 +131,55 @@ fuzzauksessa tuli .git ja wp-admin esiin testasin ne URL ja löytyi:
 
 ## c) Asenna John the Ripper ja testaa sen toiminta murtamalla jonkin esimerkkitiedoston salasana.
 
+Aloitin tehtävän käyttäen teron ohjeita John the ripperistä
+
+kloonasin gitin:
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/676f14a9-b87a-442a-a1a6-79aeeca1e5fa)
+
+menin john/src osioon ja conffasin sen:
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/2bacbecd-d102-451a-85d6-6d683a2f241f)
+
+
+latasin teron zippi tiedoston
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/9c12629b-94a5-4319-9935-1969b6fe443f)
+
+yritin unzipata sen ja se kysy salasanaa jota minulla ei ollut 
+
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/bcb845ed-9e7d-4dfa-81e7-d5313459a18c)
+
+käytin johnia joka antoi salasanan butterfly : 
+
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/c869375c-595f-46c5-a291-f42f91cd8a7e)
+
+unzippasin uudestaan salasanalla butterfly ja catti comennolla katsoin SECRET.md
+
+You've found the secret, well done!
+
+You have now completed the tutorial. 
+
+Did you know that Jumbo John can handle many other file formats, too [1]?
+
+[1] https://TeroKarvinen.com/2023/crack-file-password-with-john/
+
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/9f49741e-25ab-417a-996c-d8956696cc10)
+
+
+
+
+
+
 
   
 ## d) Fuffme. Asenna Ffufme harjoitusmaali paikallisesti omalle koneellesi. Ratkaise tehtävät (kaikki paitsi ei "Content Discovery - Pipes")

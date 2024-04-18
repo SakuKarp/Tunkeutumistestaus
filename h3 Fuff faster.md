@@ -49,7 +49,22 @@ Aloitin päivittämällä ja asentamalla hashcattia
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/422e0893-8b5a-4d15-b706-2133cfed5314)
 
-![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/6e215806-6f1b-47b9-8621-fc58c9466267)
+    hashcat --example-hashes # näyttää listan erilaisista hasheista joita voi käyttää
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/014cd143-beed-40a6-b2d0-8294ea25b74d)
+
+hash typen katsominen
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/49100344-bf51-45f1-82ee-519bd1be74c7)
+
+Haetaan hashcatillä hash id:n perusteella mikä halutaan murtaa ja tehdään se omaan filuun "solved"
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/20f17b2d-344e-478a-93b3-a9335f1709b9)
+
+    cat solved # katsotaan salasana joka murrettiin
+
+
 
 
 
@@ -57,6 +72,60 @@ Aloitin päivittämällä ja asentamalla hashcattia
 
   
 ## b) Salainen, mutta ei multa. Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf
+
+Aloitin tekemällä tehtävää dirfutz-0 ohjeiden mukaan.cd
+
+seurasin ohjeita ja lopputulos oli että löysin piilotetun ardminin sivustosta
+
+Kuva vastauksesta:
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/8581e61c-7b59-406c-8d71-f9f4f736774e)
+
+Aloitin tekemään Tehtävän challengea dirfuz-1.
+
+Aloitin ottamalla paketin dirfuzt-1 teron sivuilta käyttäen
+
+    wget https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/dirfuzt-1
+
+Annoin oikeudet ja katsoin että se on päällä:
+
+    chmod u+z dirfuzt-1
+    ./dirfuzt-1
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/57ce6fa6-eb18-475b-9c47-55edde0995c3)
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/8f2752e7-c2f5-4ef8-b6dd-30af238efb7e)
+
+Avasin uuden shellin ja aloitin lataamaan fuffia
+
+    $ wget https://github.com/ffuf/ffuf/releases/download/v2.0.0/ffuf_2.0.0_linux_amd64.tar.gz # lataa    
+    tar -xf ffuf_2.0.0_linux_amd64.tar.gz # purkaa
+    ./ffuf 
+
+fuffi asennettu:
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/86392fa4-6890-406c-b94e-0465281cd539)
+
+käytin Seclists by Daniel Miessler ja katsoin että se löytyy koneeltani.
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/9f987b13-d8ad-411e-be77-31cd1b478fde)
+
+Netistä pois ja jatkuu:
+
+    ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 154
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/d105d0fc-9b10-4785-ab69-bd72c9e2810a)
+
+fuzzauksessa tuli .git ja wp-admin esiin testasin ne URL ja löytyi:
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/f10c79e8-771d-4dd8-a1ad-6838b3de33aa)
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/3c03c223-423e-4909-975e-16fa0156baa8)
 
 ## c) Asenna John the Ripper ja testaa sen toiminta murtamalla jonkin esimerkkitiedoston salasana.
   

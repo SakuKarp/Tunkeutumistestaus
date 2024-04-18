@@ -237,9 +237,29 @@ Latauslinkin yhteydessä on oltava selkeä varoitus siitä, että binääriä ei
 
 ## f) Asenna Windows virtuaalikoneeseen. Voi olla esimerkiksi Metasploitable 3 tai Microsoftin sivuilta saatava ilmainen kokeiluversio.
 
+Aloitin asentamalla iso tiedostoa 
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/566d24b0-5368-4875-a180-92da8b16dcb9)
+
+avasin tiedoston virtualboxissa ja asensin sen siihen.
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/f0cc96a6-1f43-4379-8227-31965e088911)
+
+kuva työpöydältä:
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/bd7e2acf-11a6-4322-8c9e-1f94b5432b18)
+
+
+
 ## g) Ota Windowsiin graafinen etähallintayhteys Linuxista. Käytä RDP:tä eli Remote Desktop Protocol.
 
+aloitin lataamalla reminan kalille:
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/2b8f480e-b664-4770-b39b-958b6f6c9d82)
+
+
 # References
+https://www.microsoft.com/en-us/software-download/windows10
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/
 https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
 https://terokarvinen.com/2022/cracking-passwords-with-hashcat/

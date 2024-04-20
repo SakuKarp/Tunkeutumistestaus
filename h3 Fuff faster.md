@@ -135,6 +135,20 @@ fuzzauksessa tuli .git ja wp-admin esiin testasin ne URL ja löytyi:
 
 Aloitin tehtävän käyttäen teron ohjeita John the ripperistä
 
+komentoja joita käytin:
+
+    sudo apt-get update
+    sudo apt-get -y install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget
+    git clone --depth=1 https://github.com/openwall/john.git
+    cd john/src/
+    ./configure
+    wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip
+    unzip tero.zip
+    zip2john tero.zip >tero.zip.hash
+    john tero.zip.hash
+    cat secretFiles/SECRET.md
+    
+
 kloonasin gitin:
 
 

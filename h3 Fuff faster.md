@@ -99,8 +99,10 @@ Annoin oikeudet ja katsoin että se on päällä:
 
 Avasin uuden shellin ja aloitin lataamaan fuffia
 
-    $ wget https://github.com/ffuf/ffuf/releases/download/v2.0.0/ffuf_2.0.0_linux_amd64.tar.gz # lataa    
+    $ wget https://github.com/ffuf/ffuf/releases/download/v2.0.0/ffuf_2.0.0_linux_amd64.tar.gz # lataa
+    
     tar -xf ffuf_2.0.0_linux_amd64.tar.gz # purkaa
+    
     ./ffuf 
 
 fuffi asennettu:

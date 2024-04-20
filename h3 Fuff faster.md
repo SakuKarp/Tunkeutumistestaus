@@ -137,16 +137,16 @@ Aloitin tehtävän käyttäen teron ohjeita John the ripperistä
 
 komentoja joita käytin:
 
-    sudo apt-get update
-    sudo apt-get -y install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget
-    git clone --depth=1 https://github.com/openwall/john.git
-    cd john/src/
-    ./configure
-    wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip
-    unzip tero.zip
-    zip2john tero.zip >tero.zip.hash
-    john tero.zip.hash
-    cat secretFiles/SECRET.md
+    sudo apt-get update # päivittää paketit
+    sudo apt-get -y install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget # lataa työkalut joita tarvitsee
+    git clone --depth=1 https://github.com/openwall/john.git # cloonaa gitin
+    cd john/src/ # siirtyy hakemistoon
+    ./configure # ( en ole varma) 
+    wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip # otaa teron zipin netistä
+    unzip tero.zip # unzippaa teron tiedoston
+    zip2john tero.zip >tero.zip.hash # exractaa paketin uuteen tiedostoon zip hashhiin
+    john tero.zip.hash # john työstää tiedostoa
+    cat secretFiles/SECRET.md # cat katsoo tulostaa filen sisällön
     
 
 kloonasin gitin:
@@ -195,8 +195,6 @@ Did you know that Jumbo John can handle many other file formats, too [1]?
   
 ## d) Fuffme. Asenna Ffufme harjoitusmaali paikallisesti omalle koneellesi. Ratkaise tehtävät (kaikki paitsi ei "Content Discovery - Pipes")
 
-
- 
 
 - Aloitin tekemään content discovery – basic
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/07238012-6985-42c7-bde1-50bafcf8e4db)

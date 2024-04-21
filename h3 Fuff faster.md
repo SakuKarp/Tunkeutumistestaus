@@ -281,7 +281,12 @@ Syötin koneen ip osoitteen Quick Connectiin ja pääsin winukka koneelle.
 
 # References
 https://www.microsoft.com/en-us/software-download/windows10
+
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/
+
 https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
+
 https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+
 https://terokarvinen.com/2023/crack-file-password-with-john/
+

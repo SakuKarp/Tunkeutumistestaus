@@ -109,7 +109,7 @@ fuffi asennettu:
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/86392fa4-6890-406c-b94e-0465281cd539)
 
-käytin Seclists by Daniel Miessler ja katsoin että se löytyy koneeltani.
+käytin Seclists by Daniel Miessler ja katsoin että se löytyy koneeltani. https://github.com/danielmiessler/SecLists
 
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/9f987b13-d8ad-411e-be77-31cd1b478fde)

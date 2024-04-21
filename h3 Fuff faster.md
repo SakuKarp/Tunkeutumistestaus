@@ -272,6 +272,11 @@ aloitin lataamalla reminan kalille:
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/2b8f480e-b664-4770-b39b-958b6f6c9d82)
 
 
+Syötin koneen ip osoitteen Quick Connectiin ja pääsin koneelle.
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/30a9c2b5-620e-4a9f-bde2-0a52dbd04b6f)
+
+
 # References
 https://www.microsoft.com/en-us/software-download/windows10
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/

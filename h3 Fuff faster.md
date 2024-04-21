@@ -269,10 +269,12 @@ kuva työpöydältä:
 
 aloitin lataamalla reminan kalille:
 
+    sudo apt install remmina
+
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/2b8f480e-b664-4770-b39b-958b6f6c9d82)
 
 
-Syötin koneen ip osoitteen Quick Connectiin ja pääsin koneelle.
+Syötin koneen ip osoitteen Quick Connectiin ja pääsin winukka koneelle.
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/30a9c2b5-620e-4a9f-bde2-0a52dbd04b6f)
 

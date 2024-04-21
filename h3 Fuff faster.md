@@ -28,7 +28,7 @@ Karvinen 2023: Crack File Password With John
 
 ## a) Asenna Hashcat ja testaa sen toiminta murtamalla esimerkkisalasana.
 
-Alotin katsomalla Teron ohjeita https://terokarvinen.com/2022/cracking-passwords-with-hashcat/ ja seurasin niitä.
+Aloitin katsomalla Teron ohjeita https://terokarvinen.com/2022/cracking-passwords-with-hashcat/ ja seurasin niitä.
 
 Aloitin päivittämällä ja asentamalla hashcattia
 
@@ -54,11 +54,11 @@ Aloitin päivittämällä ja asentamalla hashcattia
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/014cd143-beed-40a6-b2d0-8294ea25b74d)
 
-hash typen katsominen
+hash typen katsominen:
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/49100344-bf51-45f1-82ee-519bd1be74c7)
 
-Haetaan hashcatillä hash id:n perusteella mikä halutaan murtaa ja tehdään se omaan filuun "solved"
+Haetaan hashcatillä hash id:n perusteella mikä halutaan murtaa ja tehdään se omaan filuun "solved".
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/20f17b2d-344e-478a-93b3-a9335f1709b9)
 
@@ -83,7 +83,7 @@ Kuva vastauksesta:
 
 Aloitin tekemään Tehtävän challengea dirfuz-1.
 
-Aloitin ottamalla paketin dirfuzt-1 teron sivuilta käyttäen
+Aloitin ottamalla paketin dirfuzt-1 teron sivuilta käyttäen.
 
     wget https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/dirfuzt-1
 
@@ -97,7 +97,7 @@ Annoin oikeudet ja katsoin että se on päällä:
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/8f2752e7-c2f5-4ef8-b6dd-30af238efb7e)
 
-Avasin uuden shellin ja aloitin lataamaan fuffia
+Avasin uuden shellin ja aloitin lataamaan fuffia.
 
     $ wget https://github.com/ffuf/ffuf/releases/download/v2.0.0/ffuf_2.0.0_linux_amd64.tar.gz # lataa
     
@@ -109,7 +109,7 @@ fuffi asennettu:
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/86392fa4-6890-406c-b94e-0465281cd539)
 
-käytin Seclists by Daniel Miessler ja katsoin että se löytyy koneeltani. https://github.com/danielmiessler/SecLists
+käytin Seclists by Daniel Miessler ja katsoin että se löytyy koneeltani. https://github.com/danielmiessler/SecLists.
 
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/9f987b13-d8ad-411e-be77-31cd1b478fde)
@@ -133,7 +133,7 @@ fuzzauksessa tuli .git ja wp-admin esiin testasin ne URL ja löytyi:
 
 ## c) Asenna John the Ripper ja testaa sen toiminta murtamalla jonkin esimerkkitiedoston salasana.
 
-Aloitin tehtävän käyttäen teron ohjeita John the ripperistä
+Aloitin tehtävän käyttäen teron ohjeita John the ripperistä.
 
 komentoja joita käytin:
 
@@ -160,12 +160,12 @@ menin john/src osioon ja conffasin sen:
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/2bacbecd-d102-451a-85d6-6d683a2f241f)
 
 
-latasin teron zippi tiedoston
+latasin teron zippi tiedoston.
 
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/9c12629b-94a5-4319-9935-1969b6fe443f)
 
-yritin unzipata sen ja se kysy salasanaa jota minulla ei ollut 
+yritin unzipata sen ja se kysy salasanaa jota minulla ei ollut .
 
 
 

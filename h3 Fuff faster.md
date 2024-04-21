@@ -269,7 +269,7 @@ kuva työpöydältä:
 
 aloitin lataamalla reminan kalille:
 
-    sudo apt install remmina
+    sudo apt-get install remmina
 
 ![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/2b8f480e-b664-4770-b39b-958b6f6c9d82)
 

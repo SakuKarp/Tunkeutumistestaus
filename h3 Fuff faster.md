@@ -257,8 +257,6 @@ Luodaan msfvenomilla haitta ohjelma:
 
 
 
-
-
 ## f) Asenna Windows virtuaalikoneeseen. Voi olla esimerkiksi Metasploitable 3 tai Microsoftin sivuilta saatava ilmainen kokeiluversio.
 
 Aloitin asentamalla iso tiedostoa 

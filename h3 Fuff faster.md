@@ -260,7 +260,6 @@ Luodaan msfvenomilla haitta ohjelma:
     set PAYLOAD linux/x64/shell_reverse_tcp # määrittää payloadin 
     set LHOST 192.168.1.10 # määrittää hostin
     set LPORT 4444 # määrittää portin
-    run # käynnistää kuuntelijan
 
 
 ## f) Asenna Windows virtuaalikoneeseen. Voi olla esimerkiksi Metasploitable 3 tai Microsoftin sivuilta saatava ilmainen kokeiluversio.
@@ -294,6 +293,8 @@ Syötin koneen ip osoitteen Quick Connectiin ja pääsin winukka koneelle.
 
 
 # References
+https://posts.slayerlabs.com/msfvenom-guide/
+
 https://www.microsoft.com/en-us/software-download/windows10
 
 https://terokarvinen.com/2024/eettinen-hakkerointi-2024/

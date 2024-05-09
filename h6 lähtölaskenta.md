@@ -39,9 +39,9 @@ Lipunryöstö lähestyy, ja samalla kurssin päätös. Nyt valmistaudutaan lipun
 
 # fuff: https://cheatsheet.haax.fr/web-pentest/tools/ffuf/
 
-# Jhon the ripper: https://www.stationx.net/how-to-use-john-the-ripper/ https://terokarvinen.com/2023/crack-file-password-with-john/
+# Jhon the ripper: https://www.stationx.net/how-to-use-john-the-ripper/ , https://terokarvinen.com/2023/crack-file-password-with-john/
 
-# hashcat: https://denizhalil.com/2023/11/01/hashcat-password-cracking/ https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+# hashcat: https://denizhalil.com/2023/11/01/hashcat-password-cracking/ , https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 
 # kerberos: https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a
 

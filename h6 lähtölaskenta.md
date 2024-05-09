@@ -5,7 +5,7 @@ Lipunryöstö lähestyy, ja samalla kurssin päätös. Nyt valmistaudutaan lipun
 # a) Cheatsheet. Kerää parhaat komennot lipunryöstöä varten.
 
 
-b) Review. Etsi ja tiivistä vertaisarviotu katsausartikkeli valitsemaltasi kyberturvallisuuden tai hakkeroinnin alalta.
+# b) Review. Etsi ja tiivistä vertaisarviotu katsausartikkeli valitsemaltasi kyberturvallisuuden tai hakkeroinnin alalta.
 "review" - yleensä katsausartikkeli nimessä on sana "review". Se pyrkii antamaan käsityksen alan tutkimuksesta juuri tällä hetkellä. Scholarlissa on myös nappi, jolla se yrittää näyttää vain review-artikkelit.
 Tuoretta, jos ei löydy alle 2v, niin edes alle 5v.
 1 <= jufo. Julkaistu arvostetussa vertaisarvioidussa lehdessä. Eli lehti löytyy Jufosta eli Julkaisufoorumin portaalista https://jfp.csc.fi/, ja sen taso on vähintään yksi.
@@ -20,6 +20,6 @@ Suppeahko tiivistelmä ranskalaisilla viivoilla riittää
 Kannattaa lisätä omat huomiot tai kysymykset mukaan. Merkitse selkeästi, mitkä ovat omaa pohdintaa.
 Jos artikkeli on pitkä (yli 4 sivua), voit silmäillä sen lukemisen sijasta.
 
-c) Valmiina lipunryöstöön. Asenna läppärillesi tarvittavat työkalut lipunryöstöön. Hyökkäyskone voi olla virtuaalikone.
+# c) Valmiina lipunryöstöön. Asenna läppärillesi tarvittavat työkalut lipunryöstöön. Hyökkäyskone voi olla virtuaalikone.
 Se ei saa sisältää luottamuksellisia tietoja, koska sitä voi olla tarpeen tarkistaa ja tutkia harjoituksen yhteydessä.
 Koneella saatetaan ajaa testibinäärejä ja kontteja; sekä tarkastamiseen liittyviä ohjelmia. Harjoituksessa saattaa olla Docker-kontteja, kokeile, että Docker toimii (Muistaakseni 'sudo apt-get -y install docker.io').

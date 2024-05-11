@@ -166,4 +166,11 @@ Uudet uhkat, kuten COVID-19-teemaiset hyökkäykset ja nollapäivän hyökkäyks
 
 ## References
 
-Lähteet ovat raportin sisällä
+
+
+https://academic.oup.com/cybersecurity/article/10/1/tyae001/7588826
+
+https://jfp.csc.fi/web/haku#!PublicationInformationView/id/84000
+
+
+

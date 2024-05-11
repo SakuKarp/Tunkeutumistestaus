@@ -133,18 +133,37 @@ Tarkista murrettu salasana:
 # sql injektio: https://portswigger.net/web-security/sql-injection/cheat-sheet
 
 # b) Review. Etsi ja tiivistä vertaisarviotu katsausartikkeli valitsemaltasi kyberturvallisuuden tai hakkeroinnin alalta.
-"review" - yleensä katsausartikkeli nimessä on sana "review". Se pyrkii antamaan käsityksen alan tutkimuksesta juuri tällä hetkellä. Scholarlissa on myös nappi, jolla se yrittää näyttää vain review-artikkelit.
-Tuoretta, jos ei löydy alle 2v, niin edes alle 5v.
-1 <= jufo. Julkaistu arvostetussa vertaisarvioidussa lehdessä. Eli lehti löytyy Jufosta eli Julkaisufoorumin portaalista https://jfp.csc.fi/, ja sen taso on vähintään yksi.
-Myös muualta kuin lehden kotisivulta ladattu kappale julkaistua artikkelia kelpaa, esim "final draft" sopii.
-Ei yleistajuisia kirjoja tai lehtiartikkeleita: ei Mikrobitti, ei Tietotekiikan perusteet osa I, ei "Tiede 2000" -aikakauslehti
-Älä maksa artikkeleista. Yleensä ilmainen latauslinkki löytyy Google Scholarlista oikealta. Haaga-Helian maksamat saa näkyviin Settings: Library Links: Haaga-Helia.
-Englanninkielinen käyttöliittymä toimii paremmin https://scholar.google.com/ncr
-Olennaisin sisältö tiivistelmään. Ei pelkkää metatekstiä tai artikkelin kuvailua:
-Väärin: "Artikkeli kertoo uusista tuulista tietotekniikan parissa. Mukana on yllättävä havainto kiristyshaitakkeista"
-Oikein: "Kiristyshaitakkeiden määrä kasvoi 30% vuoden 2023 aikana Foobarstanissa"
-Suppeahko tiivistelmä ranskalaisilla viivoilla riittää
-Kannattaa lisätä omat huomiot tai kysymykset mukaan. Merkitse selkeästi, mitkä ovat omaa pohdintaa.
-Jos artikkeli on pitkä (yli 4 sivua), voit silmäillä sen lukemisen sijasta.
+
+
+![image](https://github.com/SakuKarp/Tunkeutumistestaus/assets/148875105/63404ea1-14f4-4e9b-9450-15a75d744073)
+
+
+https://academic.oup.com/cybersecurity/article/10/1/tyae001/7588826
+
+
+Ennen COVIDia organisaatioita ja työntekijöitä uhkasivat monenlaiset haitat työntekijöiden huonojen tietoturvakäytäntöjen vuoksi
+
+Tekniset ratkaisut eivät kykene estämään nollapäivän hyökkäyksiä ja jatkuvia uhkia, joten ihmisten on osallistuttava suojaamaan järjestelmiä
+
+Tehokkaat tietoturvakäytännöt voivat sisältää palomuurien ja virustorjuntaohjelmien käytön, yksityisyysasetusten käytön ja haitallisten linkkien välttämisen
+
+Organisaatiot järjestävät tietoisuuden lisäämis- ja koulutusohjelmia hyvien tietoturvakäytäntöjen varmistamiseksi, mutta näissä ohjelmissa on usein ongelmia
+
+Monilla organisaatioilla oli ennen COVIDia vähemmän kuin optimaaliset tietoturvakäytännöt ja monet työntekijät eivät olleet valmiita työskentelemään turvallisesti kotoa pandemian huippukaudella
+
+Uudet uhkat, kuten COVID-19-teemaiset hyökkäykset ja nollapäivän hyökkäykset, lisäsivät kyberriskejä pandemian aikana
+
+
+
+
+
+
+
+
 
 # c) Valmiina lipunryöstöön.
+
+
+## References
+
+Lähteet ovat raportin sisällä

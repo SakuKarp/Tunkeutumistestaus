@@ -172,5 +172,20 @@ https://academic.oup.com/cybersecurity/article/10/1/tyae001/7588826
 
 https://jfp.csc.fi/web/haku#!PublicationInformationView/id/84000
 
+https://cheatsheet.haax.fr/web-pentest/tools/ffuf/
 
+https://www.stationx.net/how-to-use-john-the-ripper/
 
+https://terokarvinen.com/2023/crack-file-password-with-john/
+
+https://denizhalil.com/2023/11/01/hashcat-password-cracking/
+
+https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+
+https://www.comparitech.com/net-admin/metasploit-cheat-sheet/
+
+https://portswigger.net/web-security/sql-injection/cheat-sheet
+
+https://terokarvinen.com/2024/eettinen-hakkerointi-2024/
+
+https://www.stationx.net/nmap-cheat-sheet/

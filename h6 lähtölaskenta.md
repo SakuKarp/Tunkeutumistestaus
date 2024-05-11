@@ -2,7 +2,7 @@
 
 Lipunryöstö lähestyy, ja samalla kurssin päätös. Nyt valmistaudutaan lipunryöstöön, ja kurssin jälkeiseen elämään. Tieteellisten artikkeleiden silmäily auttaa oppariaiheen valinnassa. Harjoitusmaalit opettavat käytännön hakkerointia.
 
-## a) Cheatsheet. Kerää parhaat komennot lipunryöstöä varten.
+## a) Oma Cheatsheet
 
 # nmap : https://www.stationx.net/nmap-cheat-sheet/
 
@@ -35,14 +35,86 @@ Lipunryöstö lähestyy, ja samalla kurssin päätös. Nyt valmistaudutaan lipun
     nmap -Pn <IP-osoite>
 
 
-# sql injektio: https://portswigger.net/web-security/sql-injection/cheat-sheet
+
 
 # fuff: https://cheatsheet.haax.fr/web-pentest/tools/ffuf/
 
+
+    ffuf -w /usr/share/wordlists/wfuzz/general/common.txt -u http://127.0.0.2:8000/FUZZ # 
+
+Selitetty:
+
+/fuff : ajaa ffuf ohjelman
+-w : mitä sanalistaa ohjelma käyttää
+/usr/share/wordlists/wfuzz/general/common.txt : sanalistani sijainti
+-u : määrittää kohteen
+http:127.0.0.2:8000/FUZZ : fuzz sanaan ohjelma kokoeilee sanalistan sanat
+
 # Jhon the ripper: https://www.stationx.net/how-to-use-john-the-ripper/ , https://terokarvinen.com/2023/crack-file-password-with-john/
+
+Työkalun asennus ja ympäristön valmistelu:
+
+    sudo apt-get update
+    sudo apt-get -y install git build-essential libssl-dev
+    git clone --depth=1 https://github.com/openwall/john.git
+    cd john/src/
+    configure && make -s clean && make -sj4
+    cd ../run/
+
+Sanakirjojen lataaminen ja käyttäminen:
+
+    wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
+    tar xf rockyou.txt.tar.gz
+    rm rockyou.txt.tar.gz
+
+Hash-tyypin tunnistaminen ja valmistelu:
+
+    john --format=raw-md5 --wordlist=rockyou.txt hashfile.txt
+
+Zip-tiedostojen salasanojen murtaminen:
+
+    zip2john tero.zip > tero.zip.hash
+    john --wordlist=rockyou.txt tero.zip.hash
+
+Erilaiset murtomenetelmät:
+
+    john --single hashfile.txt
+    john --incremental hashfile.txt
+    john --wordlist=/path/to/wordlist.txt --format=raw-sha1 hashfile.txt
+
+Tulosten tarkistaminen:
+
+    john --show tero.zip.hash
+
+
     
 
 # hashcat: https://denizhalil.com/2023/11/01/hashcat-password-cracking/ , https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+
+luo/saa/pura:
+
+    sudo apt-get update
+    sudo apt-get -y install hashid hashcat wget
+    mkdir hashed
+    cd hashed
+
+    wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
+    tar xf rockyou.txt.tar.gz
+    rm rockyou.txt.tar.gz
+
+tunnista:
+
+    hashid -m 6b1628b016dff46e6fa35684be6acc96
+
+Murra salasana:
+
+    hashcat -m 0 -a 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved.txt
+
+Tarkista murrettu salasana:
+
+    cat solved.txt
+    hashcat -m 0 6b1628b016dff46e6fa35684be6acc96 rockyou.txt
+
 
 
 # msfvenom/metasploitable : https://www.comparitech.com/net-admin/metasploit-cheat-sheet/
@@ -58,6 +130,7 @@ Lipunryöstö lähestyy, ja samalla kurssin päätös. Nyt valmistaudutaan lipun
 
     sessions -i 1
 
+# sql injektio: https://portswigger.net/web-security/sql-injection/cheat-sheet
 
 # b) Review. Etsi ja tiivistä vertaisarviotu katsausartikkeli valitsemaltasi kyberturvallisuuden tai hakkeroinnin alalta.
 "review" - yleensä katsausartikkeli nimessä on sana "review". Se pyrkii antamaan käsityksen alan tutkimuksesta juuri tällä hetkellä. Scholarlissa on myös nappi, jolla se yrittää näyttää vain review-artikkelit.
@@ -74,6 +147,4 @@ Suppeahko tiivistelmä ranskalaisilla viivoilla riittää
 Kannattaa lisätä omat huomiot tai kysymykset mukaan. Merkitse selkeästi, mitkä ovat omaa pohdintaa.
 Jos artikkeli on pitkä (yli 4 sivua), voit silmäillä sen lukemisen sijasta.
 
-# c) Valmiina lipunryöstöön. Asenna läppärillesi tarvittavat työkalut lipunryöstöön. Hyökkäyskone voi olla virtuaalikone.
-Se ei saa sisältää luottamuksellisia tietoja, koska sitä voi olla tarpeen tarkistaa ja tutkia harjoituksen yhteydessä.
-Koneella saatetaan ajaa testibinäärejä ja kontteja; sekä tarkastamiseen liittyviä ohjelmia. Harjoituksessa saattaa olla Docker-kontteja, kokeile, että Docker toimii (Muistaakseni 'sudo apt-get -y install docker.io').
+# c) Valmiina lipunryöstöön.
